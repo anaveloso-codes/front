@@ -9,8 +9,7 @@
     background-color: #f4f6f9;
     min-height: 100vh;
   }
-  
-  
+
   header {
     display: flex;
     align-items: center;
@@ -44,7 +43,8 @@
     font-size: 14px;
   }
   
-  nav a:hover {
+  nav a:hover,
+  nav a:focus-visible {
     text-decoration: underline;
     background-color: rgba(0, 0, 0, 0.08);
   }
@@ -54,7 +54,10 @@
     color: #ffffff;
   }
   
-  
+  .menu-lista i {
+    margin-right: 8px;
+  }
+
   main {
     display: flex;
     justify-content: center;
@@ -115,4 +118,27 @@
   
   button:hover {
     background-color: #1d4ed8;
+  }
+  
+  .mensagem {
+    display: none;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .mensagem.ok {
+    display: block;
+    background: #f0fdf4;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+  }
+  
+  .mensagem.falha {
+    display: block;
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
   }

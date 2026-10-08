@@ -1,20 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listar Agendamentos</title>
+    <link rel="stylesheet" href="listaragendamento.css">
 </head>
 <body>
-    <p>Teste</p>
-    <ul class="menu-lista">
-        <li><a href="paginainicial.html">Página Inicial</a></li>
-        <li><a href="cadastrocliente.html" class="ativo">Cadastro Clientes</a></li>
-        <li><a href="cadastroveiculo.html">Cadastro Veículos</a></li>
-        <li><a href="agendamento.html">Agendamentos</a></li>
-        <li><a href="listarcliente.html">Listar clientes</a></li>
-        <li><a href="listaragendamento.html">Listar agendamentos</a></li>
-        <li><a href="index.html">Sair</a></li>
-    </ul>
+   <header>
+        <img src="OFICINA DO ZÉ Logotipo Automotivo.png" alt="Logo">
+        <nav>
+            <ul class="menu-lista">
+                <li><a href="paginainicial.html">Página Inicial</a></li>
+                <li><a href="cadastrocliente.html" class="ativo">Cadastro Clientes</a></li>
+                <li><a href="cadastroveiculo.html">Cadastro Veículos</a></li>
+                <li><a href="agendamento.html">Agendamentos</a></li>
+                <li><a href="listarcliente.html">Listar clientes</a></li>
+                <li><a href="listaragendamento.html">Listar agendamentos</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Data Agendamento</th>
+            <th>Serviço</th>
+            <th>Alterações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2026-10-10</td>
+            <td>Troca</td>
+            <td>✏️🗑️</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>2026-10-11</td>
+            <td>Alinhar</td>
+              <td>✏️🗑️</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>2026-10-12</td>
+            <td>Revisão</td>
+              <td>✏️🗑️</td>
+        </tr>
+    </tbody>
+</table>
 </body>
 </html>
